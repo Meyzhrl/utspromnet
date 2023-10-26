@@ -1,0 +1,99 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    align-content: center;
+}
+.logo a{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+}
+.menu{
+    float: right;
+}
+nav{
+    display: flex;
+    line-height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10%;
+    top: 0;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: right;
+}
+nav ul li a{
+    color:black;
+    font-weight: bolder;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+.Home {
+    background-size: 900px 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px; 
+}
+.about{
+    margin-top: 200px;
+}
+h3{
+    margin-top:100px;
+}
+.button1{
+    width: 120px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    margin: 10px 5px;
+    margin-right:50px;
+    margin-top: -400px;
+    font-size: 20px;
+    float:right;
+    padding: 5px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.button2{
+    width: 120px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    margin: 10px 5px;
+    margin-right:50px;
+    margin-top: -240px;
+    font-size: 20px;
+    float:right;
+    padding: 5px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.button3{
+    width: 120px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    margin: 10px 5px;
+    margin-right:50px;
+    margin-top: -70px;
+    font-size: 20px;
+    float:right;
+    padding: 5px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
