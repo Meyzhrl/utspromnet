@@ -9,13 +9,15 @@ body{
     padding: 0px;
     align-content: center;
 }
-.logo a{
-    font-size: 30px;
+.logo h2{
+    font-size: 20px;
     font-weight: bold;
     float: left;
+    align-items: center;
 }
 .menu{
     float: right;
+    margin-left: 500px;
 }
 nav{
     display: flex;
@@ -41,13 +43,25 @@ nav ul li a{
     text-decoration: none;
 }
 .Home {
-    background-size: 900px 500px;
+    background-size: cover;
+    background-image: url("Meyda.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     padding: 100px; 
+    height: 50vh;
+}
+.nama{
+    font-size: 20px;
+}
+.home p{
+    font-size: 30px;
+}
+.home button{
+    border-radius: 40px;
+    font-weight: bold;
 }
 .about{
-    margin-top: 200px;
+    margin-top: 300px;
 }
 h3{
     margin-top:100px;
