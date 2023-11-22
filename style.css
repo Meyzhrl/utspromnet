@@ -44,7 +44,7 @@ nav ul li a{
 }
 .Home {
     background-size: cover;
-    background-image: url("Meyda.jpeg");
+    background-image: url("img/Meyda.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     padding: 100px; 
@@ -52,6 +52,9 @@ nav ul li a{
 }
 .nama{
     font-size: 20px;
+}
+h2{
+    font-size: 30px;
 }
 .home p{
     font-size: 30px;
@@ -111,3 +114,58 @@ h3{
     position: relative;
     overflow: hidden;
 }
+
+/* Contact */
+h3{
+    color: black;
+    top: 200px;
+    margin-right: 50%;
+}
+.action{
+    margin-bottom: 50px;
+    padding: 50px;
+}
+.action p:nth-child(1){
+    font-size: 40px;
+    font-weight: bolder;
+    color: gray;
+}
+.action p:nth-child(2){
+    margin-top: 300px;
+    color: black;
+}
+.login-box{
+    position: absolute;
+    top: 320%;
+    margin-right: 5px;
+    margin-left: 50%;
+    width: 300px;
+    height: 300px;
+    padding: 40px;
+    border: 3px solid black;
+}
+.login-box h2{
+    margin-left: 5px;
+    align-items: center;
+    font-weight: bold;
+}
+.login-box .user-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.login-box .user-box input{
+    border-style: none;
+    border-bottom: 1px solid black;
+    height: 20px;
+    width: 50%;
+    font-size: 16px;
+    padding: 5px 0;
+}
+.login-box .user-box label{
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
